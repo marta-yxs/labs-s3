@@ -1,3 +1,4 @@
 Репозиторий с лабораторными работами по программированию за 3 семестр  
 Студент: Момот Марта-Мария Михайловна  
-Лабораторная работа 2: сумма двух (https://github.com/marta-yxs/labs-s3/tree/main/lab_2)
+Лабораторная работа 2: сумма двух (https://github.com/marta-yxs/labs-s3/tree/main/lab_2)  
+Лабораторная работа 3: построение бинарного дерева (https://github.com/marta-yxs/labs-s3/tree/main/lab_3)
