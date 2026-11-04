@@ -14,7 +14,7 @@
 | 16 | 0.420000 | 0.530000 | 0.910000 | 0.990000 | 0.510000 |
 
 ## 2. Графики
-![График](graphs.png)
+![График]([graphs.png](https://github.com/marta-yxs/labs-s3/blob/main/lab_5/tree_performance_chart.png))
 
 ## 3. Выводы
 
