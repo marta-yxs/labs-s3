@@ -268,7 +268,7 @@ if __name__ == '__main__':
     times_iter_memo = []
     times_lru = []
 
-    print("Запуск замеров времени для Варианта 9...")
+    print("Начало замеров времени")
 
     for h in heights:
         gen_bin_tree_recursive_memo.cache_clear()
@@ -295,7 +295,7 @@ if __name__ == '__main__':
     plt.plot(heights, times_iter_memo, label='Итеративный BFS + кэш', marker='^', linestyle='--')
     plt.plot(heights, times_lru, label='Рекурсия + @lru_cache', marker='d', linestyle=':')
 
-    plt.title('Сравнение скорости построения дерева (Вариант 9)')
+    plt.title('Сравнение скорости построения дерева')
     plt.xlabel('Высота дерева (height)')
     plt.ylabel('Время выполнения (секунды)')
     
