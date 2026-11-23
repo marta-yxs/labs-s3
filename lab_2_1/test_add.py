@@ -22,6 +22,10 @@ class TestAdd(unittest.TestCase):
         result = add([-5, -2, -8, -3], -10)
         self.assertIn(result, ([1, 2], [2, 1]))
 
+    def test_negative(self):
+        result = add([-1, -2, -3], 0)
+        self.assertIsNone(result)
+
     def test_large_array(self):
         nums = [1] * 500 + [100]
         result = add(nums, 101)
@@ -29,11 +33,7 @@ class TestAdd(unittest.TestCase):
         idx1, idx2 = result
         self.assertEqual(nums[idx1] + nums[idx2], 101)
         self.assertNotEqual(idx1, idx2)
-	
-    def test_negative(self):
-        result = add([-1, -2, -3], 0)
-        self.assertIsNone(result)
-	
+
     def test_single_and_empty(self):
         self.assertIsNone(add([], 0))
         self.assertIsNone(add([1], 1))
